@@ -1,0 +1,7 @@
+{
+  email emresoysuren03@gmail.com
+}
+greenlight.emresoysuren.com {
+  respond /debug/* "Not Permitted" 403
+  reverse_proxy localhost:4000
+}
